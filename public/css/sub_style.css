@@ -1,0 +1,582 @@
+
+/*---------------------
+  Header
+-----------------------*/
+
+img {
+	object-fit: cover;
+}
+
+
+.header {
+	position: absolute;
+	display: flex;
+	width: 100%;
+	height: 10rem;
+	top: 0;
+	left: 0;
+	z-index: 9;
+	padding: 2rem 0 0 0;
+	justify-content: space-evenly;
+}
+
+
+.header__logo {
+	margin-left: 1rem;
+}
+
+
+/* nav */
+.header__menu ul {
+	position: relative;
+}
+
+.header__menu ul li {
+	display: inline-block;
+}
+
+
+.header__menu a {
+	display: block;
+	padding: 0 1rem;
+	color: var(--white-color);
+	font-size: 1.6rem;
+	line-height: 6rem;
+	margin: 0rem 4rem;
+}
+
+.header__menu a:hover {
+	color: var(--black-color);
+}
+
+
+
+/* Hide Dropdowns by Default */
+
+.header__menu .dropdown {
+	display: none;
+	position: absolute;
+	background-color: var(--gray-color);
+}
+
+.header__menu .dropdown a {
+	color: var(--black-color);
+}
+
+/* Display Dropdowns on Hover */
+.header__menu ul li:hover>ul {
+	display: inherit;
+}
+
+/* First Tier Dropdown */
+.header__menu .dropdown li {
+	width: 28rem;
+	float: none;
+	display: list-item;
+	position: relative;
+}
+
+/* nav end */
+
+.header__widget a {
+	color: var(--white-color);
+	border: .1rem solid var(--line-color);
+	font-size: 1.6rem;
+	font-weight: 300;
+	padding: 1rem 2rem;
+}
+
+.header__widget li {
+	display: inline-block;
+	margin: 2rem .5rem;
+}
+
+.header__widget .header__widget__site {
+	background-color: var(--pink-color);
+	color: var(--white-color);
+	border: none;
+}
+
+.offcanvas-menu-wrapper {
+	display: none;
+}
+
+.canvas__open {
+	display: none;
+}
+
+/*---------------------
+  Breadcrumb
+-----------------------*/
+.breadcrumb-option {
+	padding: 15rem 0;
+	animation: research 8s ease-in-out infinite;
+}
+
+.breadcrumb-option__intro {
+	padding: 15rem 0;
+	animation: introduction 8s ease-in-out infinite;
+}
+
+.breadcrumb-option__configure {
+	padding: 15rem 0;
+	animation: configuration 8s ease-in-out infinite;
+}
+
+.breadcrumb-option__inst {
+	padding: 15rem 0;
+	animation: instruction 8s ease-in-out infinite;
+}
+
+
+
+@keyframes introduction {
+
+	0%,
+	100% {
+		background-image: url(../img/sub/sub_1_1.png);
+	}
+
+
+	50% {
+		background-image: url(../img/sub/sub_1_2.png);
+	}
+
+}
+
+@keyframes configuration {
+
+	0%,
+	100% {
+		background-image: url(../img/sub/sub_2_1.png);
+	}
+
+
+	50% {
+		background-image: url(../img/sub/sub_2_2.png);
+	}
+
+}
+
+@keyframes research {
+
+	0%,
+	100% {
+		background-image: url(../img/sub/sub_3_1.png);
+	}
+
+}
+
+@keyframes instruction {
+
+	0%,
+	100% {
+		background-image: url(../img/sub/sub_4_1.png);
+	}
+
+
+	50% {
+		background-image: url(../img/sub/sub_4_2.png);
+	}
+
+}
+
+.breadcrumb__text h2 {
+	font-size: 4.0rem;
+	font-weight: 600;
+	color: var(--white-color);
+	text-align: center;
+	margin-bottom: 1.2rem;
+}
+
+.breadcrumb__links {
+	background-color: var(--gray-color);
+	display: flex;
+	justify-content: center;
+	padding: 4rem;
+}
+
+.breadcrumb__links a {
+	font-size: 1.6rem;
+	color: var(--black-color);
+	position: relative;
+	margin-right: 1.2rem;
+}
+
+.breadcrumb__links a:after {
+	position: absolute;
+	right: -1.0rem;
+	top: .1rem;
+	content: ">";
+}
+
+.breadcrumb__links span {
+	font-size: 1.6rem;
+	color: var(--pink-color);
+	display: inline-block;
+}
+
+.breadcrumb__content {
+	display: flex;
+	justify-content: center;
+	margin: 5rem 40rem;
+}
+
+.breadcrumb__image img {
+	width: 100rem;
+	margin: 0 auto;
+}
+
+
+
+
+/* professor */
+
+.professor_king {
+	text-align: center;
+}
+
+.professor_list {
+	display: grid;
+	grid-template-columns: repeat(2, 4fr);
+	text-align: center;
+	justify-content: center;
+}
+
+
+
+.breadcrumb__head h1 {
+	margin-top: 5rem;
+	padding: 2rem;
+	text-align: center;
+}
+
+.professor {
+	display: inline-block;
+	text-align: center;
+	align-items: center;
+	width: 50rem;
+	margin: 2rem;
+}
+
+.mb_detail {
+	font-size: 1.5rem;
+	margin: 2rem;
+}
+
+.mb_name {
+	font-size: 2.0rem;
+	font-weight: 600;
+}
+
+.mb_items {
+	display: inline-block;
+	margin: 1rem;
+}
+
+
+
+/* 신진연구인력 */
+
+.title_info {
+	text-align: left;
+}
+
+
+/* table */
+
+#showHide {
+	display: none;
+}
+
+.showhideBtn {
+	margin-top: 2rem;
+	text-align: right;
+}
+
+.content {
+	margin: 5rem auto;
+	font-size: 1.6rem;
+	text-align: center;
+}
+
+table {
+	width: 100rem;
+	border-collapse: collapse;
+}
+
+thead {
+	border-bottom: .1rem solid #808080;
+
+}
+
+th {
+	padding: .5rem;
+	text-align: center;
+	border-top: .1rem solid var(--black-color);
+	border-bottom: .1rem solid var(--black-color);
+}
+
+td {
+	padding: .5rem;
+	border-top: .1rem solid var(--black-color);
+	border-bottom: .1rem solid var(--black-color);
+}
+
+.tr {
+	transition: opacity .5s ease;
+
+}
+
+
+tr:hover td {
+	background: var(--gray-color);
+}
+
+#showHide {
+	margin-top: 2rem;
+}
+
+
+
+/* tabbox */
+.tab-box {
+	text-align: center;
+	display: inline-block;
+	font-size: 1.6rem;
+	border: .1rem solid var(--gray-color);
+}
+
+.tabs {
+	display: flex;
+	justify-content: center;
+	border-bottom: .1rem solid var(--line-color);
+	background-color: var(--gray-color);
+}
+
+.tabs li {
+	cursor: pointer;
+}
+
+.tabs__button {
+	padding: 2rem;
+}
+
+.tabs__button:hover {
+	background-color: #cccccc;
+}
+
+.tabs__button--active {
+	background-color: #cccccc;
+}
+
+.tab__content {
+	display: none;
+	border-top: none;
+}
+
+.tab__content--active {
+	display: block;
+}
+
+.tab__container img {
+	width: 50%;
+}
+
+.tab__container {
+	border-top: none;
+	width: 100%;
+	height: 60rem;
+	overflow-y: scroll;
+}
+
+
+/* 사이트맵 */
+
+.sitemap {
+	text-align: center;
+	display: inline-block;
+}
+
+.sitemap h1 {
+	padding: 5rem;
+	border-bottom: .3rem solid var(--pink-color);
+}
+
+.sitemap li a {
+	color: var(--black-color);
+	background: var(--gray-color);
+	margin: 5rem;
+}
+
+
+
+/*login and signup */
+hgroup {
+	text-align: center;
+	margin-top: 4em;
+}
+
+.log-form+span {
+	font-size: 1.6rem;
+	font-weight: 600;
+	letter-spacing: 0.3rem;
+	line-height: 24px;
+	text-transform: uppercase;
+}
+
+/*------------------------------------------------------------------
+  [ Login Form ]*/
+
+.log-form {
+	width: 500px;
+	margin: 4em auto;
+	padding: 3rem 2rem 2rem 2rem;
+	background: #fafafa;
+	border: 1px solid #ebebeb;
+	box-shadow: rgba(0, 0, 0, 0.14902) 0px 1px 1px 0px, rgba(0, 0, 0, 0.09804) 0rem .1rem .2rem 0rem;
+}
+
+.group {
+	position: relative;
+	margin-bottom: 4.5rem;
+}
+
+.log-input {
+	font-size: 1.6rem;
+	padding: 1rem 1rem .1rem .5rem;
+	-webkit-appearance: none;
+	display: block;
+	background: #fafafa;
+	color: #636363;
+	width: 100%;
+	border: none;
+	border-radius: 0;
+	border-bottom: .1rem solid #757575;
+}
+
+.log-input:focus {
+	outline: none;
+}
+
+.log-form a {
+	font-size: 1.6rem;
+	font-weight: 600;
+	letter-spacing: 0.3rem;
+	line-height: 2.4rem;
+	text-transform: uppercase;
+	color: #aaaaaa;
+}
+
+.left-align {
+	float: left;
+	text-align: left;
+}
+
+.right-align {
+	float: right;
+	text-align: right;
+}
+
+
+/*------------------------------------------------------------------
+  [ Button same code as contact form ]*/
+
+.container-log-btn {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding-top: 5rem;
+}
+
+.log-form-btn {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 0 2rem;
+	min-width: 25rem;
+	;
+	height: 5rem;
+	background-color: transparent;
+	border-radius: .7rem;
+	cursor: pointer;
+	font-size: 1.6rem;
+	color: #000;
+	line-height: 1.2;
+	text-transform: uppercase;
+
+	-webkit-transition: all 0.4s;
+	-o-transition: all 0.4s;
+	-moz-transition: all 0.4s;
+	transition: all 0.4s;
+	position: relative;
+	z-index: 1;
+}
+
+.log-form-btn::before {
+	content: "";
+	display: block;
+	position: absolute;
+	z-index: -1;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 50%;
+	-webkit-transform: translateX(-50%);
+	-moz-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	-o-transform: translateX(-50%);
+	transform: translateX(-50%);
+	border-radius: .7rem;
+	background-color: #9e8c7b;
+	pointer-events: none;
+
+	-webkit-transition: all 0.4s;
+	-o-transition: all 0.4s;
+	-moz-transition: all 0.4s;
+	transition: all 0.4s;
+}
+
+.log-form-btn:hover:before {
+	background-color: #916439;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea,
+select {
+	background: transparent;
+	border: none;
+	font-family: "Montserrat";
+	font-size: 1.6rem;
+	font-weight: 400;
+	letter-spacing: 0.2rem;
+	line-height: 2.4rem;
+	height: 4.2rem;
+	padding-left: 2rem;
+	padding-right: 2rem;
+	text-transform: none;
+	width: 100%;
+}
+
+input[type="checkbox"]:not(:checked)+label,
+input[type="checkbox"]:checked+label {
+	color: #aaaaaa;
+	cursor: pointer;
+	font-size: .9rem;
+	font-weight: 600;
+	letter-spacing: 0.3rem;
+	padding-left: 1rem;
+	padding-top: .6rem;
+	position: relative;
+	text-transform: uppercase;
+}

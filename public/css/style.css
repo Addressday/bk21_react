@@ -1,0 +1,325 @@
+.set-bg {
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top center;
+}
+
+
+
+.hero {
+	position: relative;
+}
+
+.hero__items {
+	height: 75rem;
+	padding-right: 85rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+
+.hero__text h2 {
+	color: var(--white-color);
+	font-size: 5.4rem;
+	font-weight: 700;
+	margin-bottom: 2.5rem;
+	position: relative;
+	top: 10rem;
+	opacity: 0;
+}
+
+.hero__text p {
+	color: var(--white-color);
+	font-size: 2.1rem;
+}
+
+.hero__text a {
+	color: var(--white-color);
+	background-color: var(--pink-color);
+	font-size: 1.4rem;
+	margin-top: 2rem;
+	padding: 1.5rem 5rem;
+}
+
+.hero__text a:hover {
+	color: var(--gray-color)
+}
+
+
+.hero__slider.owl-carousel .owl-item.active .hero__text h2 {
+	top: 0;
+	opacity: 1;
+}
+
+.hero__slider.owl-carousel .owl-item.active .hero__text {
+	top: 0;
+	opacity: 1;
+}
+
+.hero__slider.owl-carousel .owl-dots {
+	display: none;
+}
+
+.hero__slider.owl-carousel .owl-nav button {
+	font-size: 2.8rem;
+	color: var(--white-color);
+	position: absolute;
+	left: 5rem;
+	top: 50%;
+	display: inline-block;
+	height: 5rem;
+	width: 5rem;
+	margin-top: -2.5rem;
+}
+
+.hero__slider.owl-carousel .owl-nav button.owl-next {
+	left: auto;
+	right: 5rem;
+}
+
+.hero__slider.owl-carousel .owl-nav button:before {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	height: 2rem;
+	width: 2rem;
+	content: "";
+	border-radius: 0 0 0 .4rem;
+	-webkit-transition: all, 0.5s;
+	-o-transition: all, 0.5s;
+	transition: all, 0.5s;
+}
+
+.hero__slider.owl-carousel .owl-nav button:after {
+	position: absolute;
+	right: 0;
+	top: 0;
+	height: 2rem;
+	width: 2rem;
+	content: "";
+	border-radius: 0 .4rem 0 0;
+	-webkit-transition: all, 0.5s;
+	-o-transition: all, 0.5s;
+	transition: all, 0.5s;
+}
+
+.hero__slider.owl-carousel .owl-nav button:hover:before {
+	height: 100%;
+	width: 100%;
+	border-radius: .4rem;
+}
+
+.hero__slider.owl-carousel .owl-nav button:hover:after {
+	height: 100%;
+	width: 100%;
+	border-radius: .4rem;
+}
+
+.slide-num {
+	position: absolute;
+	left: 86rem;
+	bottom: 5.5rem;
+	z-index: 9;
+}
+
+.slide-num span {
+	font-size: 1.6rem;
+	color: var(--white-color);
+	font-weight: 600;
+	margin-right: 14rem;
+}
+
+.slide-num span:last-child {
+	margin-right: 0;
+}
+
+.slider__progress {
+	width: 10rem;
+	height: .1rem;
+	background: rgba(255, 255, 255, 0.3);
+	position: absolute;
+	left: 90rem;
+	bottom: 6.7rem;
+	z-index: 9;
+}
+
+.slider__progress span {
+	background: var(--white-color);
+	height: .5rem;
+	display: block;
+	-webkit-transition: all, 0.4s;
+	-o-transition: all, 0.4s;
+	transition: all, 0.4s;
+	position: relative;
+	top: -.1rem;
+}
+
+
+/* 4card */
+
+
+.card:hover {
+	color: var(--white-color);
+	background-color: var(--pink-color);
+}
+
+.card_main {
+	margin-right: 6rem;
+}
+
+
+.card_main a {
+	color: var(--pink-color);
+	border: .1rem solid var(--pink-color);
+	font-size: 1.4rem;
+	padding: 1rem 3rem;
+}
+
+
+.card_main a:hover {
+	background-color: var(--pink-color);
+	color: var(--white-color);
+}
+
+
+.card-container {
+	padding: 8rem;
+	display: flex;
+	background-color: var(--gray-color);
+	border-radius: 2rem;
+	justify-content: center;
+	flex-wrap: wrap;
+	font-size: 1.6rem;
+}
+
+.card-container .card {
+	margin: 1rem;
+	padding: 0rem 3rem;
+	width: 30rem;
+	height: 30rem;
+}
+
+.card-container .card img {
+	width: max-content;
+	margin: 3rem 1rem;
+}
+
+.card-body h1 {
+	font-weight: 600;
+	margin-bottom: 3rem;
+	font-size: 2.5rem;
+}
+
+.card-body h3 {
+	font-weight: 500;
+	font-size: 2.0rem !important;
+}
+
+.card-body h3,
+p {
+	margin-bottom: 3rem;
+}
+
+
+
+
+/* dot */
+.slider {
+	max-width: 600px;
+	max-height: 400px;
+	box-shadow: 0 0 20px rgba(255, 0, 0, 0.8);
+
+}
+
+/*---------------------
+  Call To Action
+-----------------------*/
+
+.callto__wrapper {
+	display: flex;
+	margin: 0rem 6rem;
+}
+
+.callto {
+	padding-top: 13rem;
+	padding-bottom: 13.5rem;
+	width: 50%;
+	display: flex;
+	position: relative;
+}
+
+.callto__text {
+	text-align: center;
+}
+
+.callto__text span {
+	font-size: 1.6rem;
+	color: var(--white-color);
+	padding-top: 1rem;
+	font-weight: 600;
+	letter-spacing: .1rem;
+	display: block;
+	margin-bottom: 3.5rem;
+}
+
+.callto .rightBtn {
+	position: absolute;
+	bottom: 0rem;
+	right: 0rem;
+}
+
+/* callto end */
+
+
+/* Three */
+
+
+.Three__card-container {
+	margin: 8rem !important;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	font-size: 1.6rem;
+}
+
+.Three__card {
+	text-align: center;
+}
+
+.Three__card-container .Three__card {
+	height: 26rem;
+	width: 36rem;
+	margin: 0rem 1rem;
+}
+
+
+.Three__card_main {
+	margin-right: 20rem;
+}
+
+
+.Three__card_main a {
+	color: var(--green-color);
+	border: .1rem solid var(--green-color);
+	font-size: 1.4rem;
+	padding: 1rem 3rem;
+}
+
+.Three__card_main a:hover {
+	background-color: var(--green-color);
+	color: var(--white-color);
+}
+
+
+.Three__card-body p {
+	text-align: center;
+	font-weight: 500;
+	margin-top: 2.0rem;
+}
+
+
+.Three__card-bod a:hover {
+	color: var(--white-color);
+	background-color: var(--green-color);
+}

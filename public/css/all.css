@@ -1,0 +1,228 @@
+/* Default Font */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+
+/* color */
+:root {
+  --white-color: #ffffff;
+  --black-color: #000000;
+  --pink-color: #cc0e74;
+  --green-color: #75cfb8;
+  --gray-color: #afafaf;
+  --line-color: #c5c5c5;
+}
+
+/* 글자 크기정리 rem */
+/* 
+ 1rem === 10px
+ 전체문서 200rem
+ 교육연구단 소개,구성 2.5rem
+ 비전과전략 4컬럼박스 2rem
+ 차세대 바이오리더 교육연구단 - 5.4rem
+ 브레인코리아 2.1rem
+ 자세히보기 박스 1.4rem
+ 로그인 3컬럼 1.4rem
+ breadcrumb__text 4.0rem
+ 햄버거바 슬릭바 글자 1rem
+ 그외 1.6rem
+ 서브페이지 문서 140rem
+ */
+html {
+  height: 100%;
+  font-weight: 400;
+  font-size: 10px;
+  font-family: 'Noto Sans KR', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  height: 100%;
+  font-weight: 400;
+  font-size: 10px;
+  font-family: 'Noto Sans KR', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+a {
+  text-decoration: none;
+  color: var(--black-color);
+}
+
+a:hover,
+a:focus {
+  text-decoration: none;
+  outline: none;
+  color: var(--black-color);
+}
+
+ul,
+ol {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style: none;
+}
+
+.container {
+  width: 100%;
+  max-width: 200rem;
+  margin: 0 auto;
+}
+
+/* header */
+.set-bg {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+}
+
+.header {
+  position: absolute;
+  display: flex;
+  width: 100%;
+  height: 10rem;
+  top: 0;
+  left: 0;
+  z-index: 9;
+  padding: 2rem 0 0 0;
+  justify-content: space-evenly;
+}
+
+.header__logo {
+  margin-left: 1rem;
+}
+
+.header__menu ul {
+  position: relative;
+}
+
+.header__menu ul li {
+  display: inline-block;
+}
+
+.header__menu a {
+  display: block;
+  padding: 0 1rem;
+  color: var(--white-color);
+  font-size: 1.6rem;
+  font-weight: 200;
+  line-height: 6rem;
+  margin: 0rem 4rem;
+  text-decoration: none;
+}
+
+.header__menu a:hover {
+  font-weight: 500;
+  color: var(--black-color);
+}
+
+.header__menu .dropdown {
+  display: none;
+  position: absolute;
+  background-color: var(--gray-color);
+}
+
+.header__menu .dropdown a {
+  color: var(--black-color);
+}
+
+.header__menu ul li:hover>ul {
+  display: inherit;
+}
+
+.header__menu .dropdown li {
+  width: 28rem;
+  float: none;
+  display: list-item;
+  position: relative;
+}
+
+.header__widget a {
+  color: var(--white-color);
+  border: 0.1rem solid var(--white-color);
+  font-size: 1.6rem;
+  font-weight: 300;
+  padding: 1rem 2rem;
+}
+
+.header__widget li {
+  display: inline-block;
+  margin: 2rem 0.5rem;
+}
+
+.header__widget .header__widget__site {
+  background-color: var(--pink-color);
+  border: none;
+}
+
+.offcanvas-menu-wrapper,
+.canvas__open {
+  display: none;
+}
+
+/* header end */
+/* footer start */
+.footer {
+  background-color: var(--gray-color);
+  padding-top: 8rem;
+  margin: 0 auto;
+  width: 100%;
+  font-size: 1.6rem;
+  font-weight: 300;
+}
+
+.footer__top {
+  border-bottom: 0.1rem solid var(--line-color);
+  padding-bottom: 4rem;
+  text-align: center;
+}
+
+.footer__top a {
+  padding-right: 4rem;
+}
+
+.footer__widget__wrapper {
+  padding: 0rem 6rem;
+}
+
+.footer__widget__wrapper a {
+  display: flex;
+  padding-right: 4rem;
+}
+
+.footer__widget__wrapper a:nth-child(4) {
+  padding-right: 0px;
+}
+
+.footer__widget {
+  margin-top: 4rem;
+  display: flex;
+}
+
+.footer__widget a {
+  color: var(--black-color);
+  font-weight: 500;
+}
+
+.footer__logo img {
+  float: left;
+  width: 20rem;
+  margin-right: 5rem;
+}
+
+.footer__address li {
+  display: inline-block;
+  margin-bottom: 2rem;
+}
+
+footer .container {
+  width: 100%;
+  max-width: 155rem;
+}
+
+/* footer end */
