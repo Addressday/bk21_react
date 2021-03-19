@@ -10,7 +10,7 @@ class Research extends React.Component {
 
 
                 {/* <!-- Breadcrumb Section Begin --> */}
-                <div class="breadcrumb-option set-bg" data-setbg="../img/hero/1_main_image.png">
+                <div class="breadcrumb-option__intro set-bg">
                     <div class="container">
                         <div class="breadcrumb__text">
                             <h2>교육연구단 소개 / 연구 역량 강화 계획</h2>

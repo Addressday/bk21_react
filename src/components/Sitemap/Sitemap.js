@@ -9,7 +9,7 @@ class Sitemap extends React.Component {
 
 
                 {/* <!-- Breadcrumb Section Begin --> */}
-                <div class="breadcrumb-option set-bg" data-setbg="../img/hero/1_main_image.png">
+                <div class="breadcrumb-option_research set-bg">
                     <div class="container">
 
                         <div class="breadcrumb__text">

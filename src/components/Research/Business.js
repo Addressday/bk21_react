@@ -9,7 +9,7 @@ class Business extends React.Component {
 
 
                 {/* <!-- Breadcrumb Section Begin --> */}
-                <div class="breadcrumb-option set-bg">
+                <div class="breadcrumb-option_research set-bg">
                     <div class="container">
 
                         <div class="breadcrumb__text">

@@ -1,10 +1,6 @@
 /*---------------------
   Breadcrumb
 -----------------------*/
-.breadcrumb-option {
-	padding: 15rem 0;
-	animation: research 8s ease-in-out infinite;
-}
 
 .breadcrumb-option__intro {
 	padding: 15rem 0;
@@ -14,6 +10,11 @@
 .breadcrumb-option__configure {
 	padding: 15rem 0;
 	animation: configuration 8s ease-in-out infinite;
+}
+
+.breadcrumb-option_research {
+	padding: 15rem 0;
+	animation: research 8s ease-in-out infinite;
 }
 
 .breadcrumb-option__inst {
@@ -64,11 +65,6 @@
 
 	0%,
 	100% {
-		background-image: url(../img/sub/sub_4_1.png);
-	}
-
-
-	50% {
 		background-image: url(../img/sub/sub_4_2.png);
 	}
 
