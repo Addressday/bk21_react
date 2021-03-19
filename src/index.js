@@ -2,7 +2,10 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
 import './assets/css/all.css';
-import './assets/css/bootstrap.min.css';
+import './assets/css/responsive.css';
+// import './assets/css/bootstrap.min.css';
+// import './assets/css/slick.css';
+// import './assets/css/slicknav.min.css';
 import reportWebVitals from './reportWebVitals';
 
 

@@ -8,9 +8,11 @@
 
 .hero {
 	position: relative;
+	
 }
 
 .hero__items {
+	background: url('../img/hero/1_main_image.png') no-repeat;
 	height: 75rem;
 	padding-right: 85rem;
 	display: flex;
@@ -247,6 +249,17 @@ p {
 	width: 50%;
 	display: flex;
 	position: relative;
+
+}
+
+.callto:nth-child(1){
+	background: url('../img/logo/3_image_1.png');
+	background-size: cover;
+}
+
+.callto:nth-child(2){
+	background: url('../img/logo/3_image_2.png');
+	background-size: cover;
 }
 
 .callto__text {
@@ -265,8 +278,8 @@ p {
 
 .callto .rightBtn {
 	position: absolute;
-	bottom: 0rem;
-	right: 0rem;
+	bottom: -0.3rem;
+	right: 0;
 }
 
 /* callto end */

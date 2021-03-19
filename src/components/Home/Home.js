@@ -12,14 +12,8 @@ class Home extends React.Component {
                 {/* <!-- Hero Section Begin --> */}
                 <section class="hero">
                     <div class="hero__slider owl-carousel">
-                        <div class="hero__items set-bg" data-setbg="../img/hero/1_main_image.png">
-                            <div class="hero__text">
-                                <h2>차세대 바이오리더 교육연구단</h2>
-                                <p>BRAIN KOREA 21</p>
-                                <a href="/">바로가기</a>
-                            </div>
-                        </div>
-                        <div class="hero__items set-bg" data-setbg="../img/hero/1_main_image.png">
+
+                        <div class="hero__items set-bg">
                             <div class="hero__text">
                                 <h2>차세대 바이오리더 교육연구단</h2>
                                 <p>BRAIN KOREA 21</p>
@@ -27,13 +21,22 @@ class Home extends React.Component {
                             </div>
                         </div>
 
-                        <div class="hero__items set-bg" data-setbg="../img/hero/1_main_image.png">
+                        {/* <div class="hero__items set-bg">
                             <div class="hero__text">
                                 <h2>차세대 바이오리더 교육연구단</h2>
                                 <p>BRAIN KOREA 21</p>
                                 <a href="/">바로가기</a>
                             </div>
                         </div>
+
+                        <div class="hero__items set-bg">
+                            <div class="hero__text">
+                                <h2>차세대 바이오리더 교육연구단</h2>
+                                <p>BRAIN KOREA 21</p>
+                                <a href="/">바로가기</a>
+                            </div>
+                        </div> */}
+
                     </div>
 
                     <div class="slide-num" id="snh-1"></div>
@@ -101,7 +104,7 @@ class Home extends React.Component {
 
                 <div class="callto__wrapper">
 
-                    <section class="callto set-bg" data-setbg="../img/logo/3_image_1.png">
+                    <section class="callto set-bg">
 
                         <div class="container">
 
@@ -117,7 +120,7 @@ class Home extends React.Component {
 
                     </section>
 
-                    <section class="callto set-bg" data-setbg="../img/logo/3_image_2.png">
+                    <section class="callto set-bg">
 
                         <div class="container">
 
