@@ -28,47 +28,6 @@
 */
 
 
-html,
-body {
-	height: 100%;
-	font-weight: 400;
-	font-size: 10px;
-	font-family: 'Noto Sans KR', sans-serif;
-	-webkit-font-smoothing: antialiased;
-}
-
-body {
-	margin: 0;
-	padding: 0;
-	overflow-x: hidden;
-	overflow-y: auto;
-}
-
-
-a {
-	text-decoration: none;
-	color: var(--black-color);
-}
-
-a:hover,
-a:focus {
-	text-decoration: none;
-	outline: none;
-	color: var(--black-color);
-}
-
-ul,
-ol {
-	padding: 0;
-	margin: 0;
-}
-
-li {
-	list-style: none;
-}
-
-
-
 @media only screen and (min-width: 145rem) {
 	.container {
 		max-width: 200rem;
@@ -643,4 +602,5 @@ li {
 	.footer__widget>.footer__address p {
 		line-height: 1.8;
 	}
+	
 }

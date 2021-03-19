@@ -8,7 +8,7 @@
 
 .hero {
 	position: relative;
-	
+
 }
 
 .hero__items {
@@ -26,9 +26,6 @@
 	font-size: 5.4rem;
 	font-weight: 700;
 	margin-bottom: 2.5rem;
-	position: relative;
-	top: 10rem;
-	opacity: 0;
 }
 
 .hero__text p {
@@ -252,12 +249,12 @@ p {
 
 }
 
-.callto:nth-child(1){
+.callto:nth-child(1) {
 	background: url('../img/logo/3_image_1.png');
 	background-size: cover;
 }
 
-.callto:nth-child(2){
+.callto:nth-child(2) {
 	background: url('../img/logo/3_image_2.png');
 	background-size: cover;
 }

@@ -39,11 +39,11 @@ class Home extends React.Component {
 
                     </div>
 
-                    <div class="slide-num" id="snh-1"></div>
+                    {/* <div class="slide-num" id="snh-1"></div>
                     <div class="slider__progress">
                         <span></span>
 
-                    </div>
+                    </div> */}
 
                 </section>
                 {/* <!-- Hero Section End --> */}

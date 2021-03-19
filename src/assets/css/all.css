@@ -144,6 +144,10 @@ li {
   position: relative;
 }
 
+.header__menu .dropdown li:hover {
+  background-color: var(--line-color);
+}
+
 .header__widget a {
   color: var(--white-color);
   border: 0.1rem solid var(--white-color);

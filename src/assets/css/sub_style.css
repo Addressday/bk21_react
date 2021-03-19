@@ -112,8 +112,8 @@
 }
 
 .breadcrumb__image img {
-	width: max-content;
-	margin: 0 auto;
+	width: 150rem;
+	object-fit: cover;
 }
 
 

@@ -1,13 +1,15 @@
 /* eslint-disable react/jsx-no-target-blank */
-import React, { Component } from 'react';
+import React, { Component, useState } from 'react';
 import { Link } from 'react-router-dom';
+import './style.scss';
 class Header extends React.Component {
-    
+
     render() {
         return (
+
             <div>
                 {/* <!-- Offcanvas Menu Begin --> */}
-                <div class="offcanvas-menu-overlay"></div>
+                {/* <div class="offcanvas-menu-overlay"></div>
                 <div class="offcanvas-menu-wrapper">
                     <div class="offcanvas__logo">
                         <Link to="/">
@@ -21,12 +23,12 @@ class Header extends React.Component {
                         <li><Link to="/signup" target="_blank">회원가입</Link></li>
                         <li><Link to="/sitemap">사이트맵</Link></li>
                     </div>
-                </div>
+                </div> */}
                 {/* <!-- Offcanvas Menu End --> */}
 
                 {/* <!-- Header Section Begin --> */}
 
-                
+
                 <header class="header">
 
                     <div class="header__logo">
@@ -92,6 +94,8 @@ class Header extends React.Component {
 
                     <div class="canvas__open"><i class="fa fa-bars"></i></div>
 
+
+                  
 
                 </header>
             </div>
