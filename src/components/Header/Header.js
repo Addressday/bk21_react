@@ -1,18 +1,6 @@
 /* eslint-disable react/jsx-no-target-blank */
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import styled from 'styled-components';
-const HeaderA = styled.div`
-    position: absolute;
-    display: flex;
-    width: 100%;
-    height: 10rem;
-    top: 0;
-    left: 0;
-    z-index: 9;
-    padding: 2rem 0 0 0;
-    justify-content: space-evenly;
-`;
 class Header extends React.Component {
     
     render() {
@@ -43,7 +31,7 @@ class Header extends React.Component {
 
                     <div class="header__logo">
                         <Link to="/">
-                            <img src="img/logo/1_bk21_logo_white.png" alt="logo" />
+                            <img src="../img/logo/1_bk21_logo_white.png" alt="logo" />
                         </Link>
                     </div>
 

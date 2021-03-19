@@ -20,7 +20,8 @@ import instructions from './components/Instructions/Instructions'
 import Login from './components/User/Login'
 import Signup from './components/User/Signup'
 import Admin from './components/User/Admin'
-
+// sitemap
+import Sitemap from './components/Sitemap/Sitemap'
 // header,footer
 import Header from './components/Header/Header'
 import Footer from './components/Footer/Footer'
@@ -48,6 +49,8 @@ function App() {
         <Route path="/research/performance" component={Performance} />
 
         <Route path="/instructions" component={instructions} />
+
+        <Route path="/sitemap" component={Sitemap} />
 
         <Route path="/login" component={Login} />
         <Route path="/signup" component={Signup} />

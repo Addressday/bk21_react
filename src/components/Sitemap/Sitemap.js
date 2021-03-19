@@ -20,8 +20,8 @@ class Sitemap extends React.Component {
 
 
                 <div class="breadcrumb__links">
-                    <a href="./index.html">홈</a>
-                    <a href="./sitemap.html">사이트맵</a>
+                    <Link to="/">홈</Link>
+                    <Link to="/sitemap">사이트맵</Link>
                     <span>사이트맵</span>
                 </div>
 

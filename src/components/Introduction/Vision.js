@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
+import '../../assets/css/sub_style.css';
+
 class Vision extends React.Component {
     render() {
         return (
